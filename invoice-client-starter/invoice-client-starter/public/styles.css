@@ -1,0 +1,89 @@
+body {
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif!important
+}
+
+/* navbar */
+.navbar-nav .nav-item .nav-link {
+    color: #478d41; /* základní barva textu */
+    font-weight: normal;
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+    margin-left: 5px;
+    font-size:20px;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #252c25; /* barva textu při hoveru */
+    background-color: #5ec781; /* barva pozadí při hoveru */
+    border-radius: 50px;
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    font-weight: bold;
+    color: rgb(241, 101, 7); /* barva textu aktivní položky */
+    background-color: transparent; /* žádná barva pozadí pro aktivní položku */
+  }
+
+  /* tables */
+  .table {
+    text-align: center;
+  }
+  .table thead {
+    font-size: large;
+  }
+ 
+  /* button */
+  /* css taken from the web: https://www.itnetwork.cz/html-css/css3/zdrojakoviste/galerie-css-3-tlacitek */
+  .return_button {
+  display: block;
+	cursor: pointer;
+	padding: 6px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 3px;
+	border: 1px solid #DC5D00;
+	text-shadow: 0px -1px 0px #DC5D00;
+	-moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.25), 0px 1px 2px rgba(0,0,0,0.25);
+	-webkit-shadow: inset 0px 1px 0px rgba(255,255,255,0.25), 0px 1px 2px rgba(0,0,0,0.25);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.25), 0px 1px 2px rgba(0,0,0,0.25);
+	background: #ffd34c;
+	background: -moz-linear-gradient(to top, #ffd34c 0%, #e66c00 100%); 
+	background: -webkit-linear-gradient(to top, #ffd34c 0%,#e66c00 100%); 
+	background: -o-linear-gradient(to top, #ffd34c 0%,#e66c00 100%); 
+	background: -ms-linear-gradient(to top, #ffd34c 0%,#e66c00 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd34c', endColorstr='#e66c00',GradientType=0 ); 
+	background: linear-gradient(to top, #ffd34c 0%,#e66c00 100%); 
+  position:relative;
+  top: -50px;  
+  right: 10px;
+  left: 1230px;
+  }
+
+  .return_button:hover{
+    background: #f4d074; 
+	background: -moz-linear-gradient(to top, #f4d074 0%, #e98219 100%); 
+	background: -webkit-linear-gradient(to top, #f4d074 0%,#e98219 100%); 
+	background: -o-linear-gradient(to top, #f4d074 0%,#e98219 100%); 
+	background: -ms-linear-gradient(to top, #f4d074 0%,#e98219 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d074', endColorstr='#e98219',GradientType=0 ); 
+	background: linear-gradient(to top, #f4d074 0%,#e98219 100%); 
+  color: black;
+  }
+
+  .return_button:active{
+    background: #e66c00; 
+	background: -moz-linear-gradient(to top, #e66c00 0%, #ffd34c 100%); 
+	background: -webkit-linear-gradient(to top, #e66c00 0%,#ffd34c 100%); 
+	background: -o-linear-gradient(to top, #e66c00 0%,#ffd34c 100%); 
+	background: -ms-linear-gradient(to top, #e66c00 0%,#ffd34c 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e66c00', endColorstr='#ffd34c',GradientType=0 ); 
+	background: linear-gradient(to top, #e66c00 0%,#ffd34c 100%);
+  }
+
+ .return_button a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ }
+ 
+ .return_button a:hover {
+  color: #252c25;
+ }
